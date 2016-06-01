@@ -46,4 +46,11 @@ public class Spice extends Ingredient {
         Spice temp=new Spice(this.getName(),this.getId(),this.getWeight(),this.getSpicy());
         return temp;
     }
+
+    @Override
+    public String toString() {
+        return "Spice{" +
+                "spicy=" + spicy +
+                '}';
+    }
 }

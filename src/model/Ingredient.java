@@ -30,4 +30,12 @@ public abstract class Ingredient implements Comparable<Ingredient>,Cloneable{
 
     public abstract Ingredient clone();
 
+    @Override
+    public String toString() {
+        return "Ingredient{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", weight=" + weight +
+                '}';
+    }
 }

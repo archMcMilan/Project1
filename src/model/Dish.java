@@ -8,6 +8,10 @@ import java.util.ArrayList;
 public abstract class Dish{
     private ArrayList<Ingredient> ingredients;
 
+    public Dish(ArrayList<Ingredient> ingredients) {
+        this.ingredients = ingredients;
+    }
+
     public ArrayList<Ingredient> getIngredients() {
         ArrayList<Ingredient> listClone=new ArrayList<>();
         for(Ingredient i:ingredients){
@@ -48,5 +52,12 @@ public abstract class Dish{
             }
         }
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Dish{" +
+                "ingredients=" + ingredients +
+                '}';
     }
 }

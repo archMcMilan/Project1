@@ -45,4 +45,11 @@ public class Vegetable extends Ingredient {
         Vegetable temp=new Vegetable(this.getName(),this.getId(),this.getWeight(),this.getCalories());
         return temp;
     }
+
+    @Override
+    public String toString() {
+        return "Vegetable{" +
+                "calories=" + calories +
+                '}';
+    }
 }
