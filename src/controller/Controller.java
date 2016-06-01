@@ -1,4 +1,4 @@
-package mvc;
+package controller;
 
 /**
  * Created by Artem on 30.05.2016.
