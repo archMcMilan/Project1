@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Created by Artem on 30.05.2016.
+ * Class that provides Ingredient fields and specified field for such meal type
  */
 public class Vegetable extends Ingredient {
     private int calories;
@@ -15,7 +15,12 @@ public class Vegetable extends Ingredient {
         return calories;
     }
 
-    public int compareTo(Vegetable o) {
+    /**
+     * Method to compare two vegetables by calories
+     * @param o
+     * @return -1 if this value less than compared to, 0 if they are equals, 1 if this is more than compared to
+     */
+    private int compareTo(Vegetable o) {
         if(this.getCalories()< o.getCalories()){
             return -1;
         }else if(this.getCalories()==o.getCalories()){
@@ -28,16 +33,7 @@ public class Vegetable extends Ingredient {
 
     @Override
     public int compareTo(Ingredient o) {
-        try {
-            if(o instanceof Vegetable){
-                return (this.compareTo((Vegetable) o));
-            }else{
-                throw new Exception();
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return 0;
+        return (this.compareTo((Vegetable) o));
     }
 
     @Override

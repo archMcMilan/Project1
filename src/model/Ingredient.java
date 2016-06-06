@@ -2,14 +2,19 @@ package model;
 
 
 /**
- * Created by Артем on 01.06.2016.
+ * Class provides general information about each meal
  */
-
 public abstract class Ingredient implements Comparable<Ingredient>,Cloneable{
     private String name;
     private int id;
     private double weight;
 
+    /**
+     * Init constructor
+     * @param name
+     * @param id
+     * @param weight
+     */
     public Ingredient(String name, int id, double weight) {
         this.name = name;
         this.id = id;

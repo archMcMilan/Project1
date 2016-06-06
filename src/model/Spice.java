@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Created by Артем on 01.06.2016.
+ * Class that provides Ingredient fields and specified field for such meal type
  */
 public class Spice extends Ingredient {
     private int spicy;
@@ -15,6 +15,11 @@ public class Spice extends Ingredient {
         return spicy;
     }
 
+    /**
+     * Method to compare two spices by spicy
+     * @param o
+     * @return -1 if this value less than compared to, 0 if they are equals, 1 if this is more than compared to
+     */
     public int compareTo(Spice o) {
         if(this.getSpicy()< o.getSpicy()){
             return -1;
@@ -28,16 +33,7 @@ public class Spice extends Ingredient {
 
     @Override
     public int compareTo(Ingredient o) {
-        try{
-            if(o instanceof Spice){
-                return (this.compareTo((Spice) o));
-            }else{
-                throw new Exception();
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return 0;
+        return (this.compareTo((Spice) o));
     }
 
 
