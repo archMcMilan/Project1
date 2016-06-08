@@ -37,7 +37,7 @@ public class Menu {
     public boolean dropDishByIngredientId(int id){
         for(int j=0;j<dishes.size();j++){
             for(Ingredient i:dishes.get(j).getIngredients()){
-                if(i.getId()==id){
+                if(i.getIng().getId()==id){
                     dishes.remove(j);
                     return true;
                 }

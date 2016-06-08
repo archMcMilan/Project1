@@ -5,32 +5,36 @@ package model;
  * Class provides general information about each meal
  */
 public abstract class Ingredient implements Comparable<Ingredient>,Cloneable{
-    private String name;
-    private int id;
+    private IngredientList ing;
     private double weight;
 
     /**
-     * Init constructor
-     * @param name
-     * @param id
+     * init constructor
+     * @param ing
      * @param weight
      */
-    public Ingredient(String name, int id, double weight) {
-        this.name = name;
-        this.id = id;
+    public Ingredient(IngredientList ing, double weight) {
+        this.ing = ing;
         this.weight = weight;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getId() {
-        return id;
+    public IngredientList getIng() {
+        return ing;
     }
 
     public double getWeight() {
         return weight;
+    }
+
+    @Override
+    public int compareTo(Ingredient o) {
+        if(this.getIng().getId()>o.getIng().getId()){
+            return 1;
+        }else if(this.getIng().getId()==o.getIng().getId()){
+            return 0;
+        }else{
+            return -1;
+        }
     }
 
     public abstract Ingredient clone();
@@ -38,8 +42,7 @@ public abstract class Ingredient implements Comparable<Ingredient>,Cloneable{
     @Override
     public String toString() {
         return "Ingredient{" +
-                "name='" + name + '\'' +
-                ", id=" + id +
+                "ing=" + ing +
                 ", weight=" + weight +
                 '}';
     }

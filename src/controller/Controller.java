@@ -58,28 +58,25 @@ public class Controller {
 
     /**
      * Method control new vegetable creation
-     * @param name
-     * @param id
+     * @param i
      * @param weight
      * @param calories
-     * @return created vegetable object
+     * @return
      */
-    public Vegetable createNewVegetable(String name,int id,double weight,int calories){
-        Vegetable temp=new Vegetable(name,id,weight,calories);
+    public Vegetable createNewVegetable(IngredientList i,double weight,int calories){
+        Vegetable temp=new Vegetable(i,weight,calories);
         return temp;
     }
 
-
     /**
      * Method control new spice creation
-     * @param name
-     * @param id
+     * @param i
      * @param weight
      * @param spicy
-     * @return created spice object
+     * @return
      */
-    public Spice createNewSpice(String name,int id,double weight,int spicy){
-        Spice temp=new Spice(name,id,weight,spicy);
+    public Spice createNewSpice(IngredientList i,double weight,int spicy){
+        Spice temp=new Spice(i,weight,spicy);
         return temp;
     }
 

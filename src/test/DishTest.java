@@ -6,22 +6,15 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static controller.Initialization.initializationSimpleSalad;
+
 /**
  * Created by Artem on 06.06.16.
  */
 public class DishTest {
 
     private Dish init(){
-        Vegetable cucumber=new Vegetable("Cucumber",1,30,1000);
-        Vegetable tomato=new Vegetable("Tomato",2,50,2000);
-        Vegetable onion=new Vegetable("Onion",3,20,300);
-        Spice salt=new Spice("Salt",1,5,0);
-        ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
-        simpleSaladIng.add(tomato);
-        simpleSaladIng.add(cucumber);
-        simpleSaladIng.add(onion);
-        simpleSaladIng.add(salt);
-        return new Salad(simpleSaladIng);
+        return initializationSimpleSalad();
     }
 
     @Test
@@ -53,7 +46,7 @@ public class DishTest {
         Dish dish=init();
         ArrayList<Ingredient> ingredients=dish.sortById();
         for(int i=0;i<ingredients.size()-1;i++){
-            if(ingredients.get(i).getId()>ingredients.get(i+1).getId()){
+            if(ingredients.get(i).getIng().getId()>ingredients.get(i+1).getIng().getId()){
                 Assert.fail();
             }
         }
@@ -63,14 +56,13 @@ public class DishTest {
     @Test
     public void countCaloriesTest(){
         Dish dish=init();
-        Vegetable coconate=new Vegetable("Coconate",4,30,1000);
-        Vegetable apple=new Vegetable("Apple",5,50,2000);
-        Vegetable banana=new Vegetable("Banana",6,20,300);
-        Spice salt=new Spice("Salt",1,5,0);
+        Vegetable cucumber=new Vegetable(IngredientList.CUCUMBER,100,2000);
+        Vegetable tomato=new Vegetable(IngredientList.TOMATO,50,3000);
+        Vegetable onion=new Vegetable(IngredientList.ONION,20,500);
         ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
-        simpleSaladIng.add(apple);
-        simpleSaladIng.add(coconate);
-        simpleSaladIng.add(banana);
+        simpleSaladIng.add(cucumber);
+        simpleSaladIng.add(tomato);
+        simpleSaladIng.add(onion);
         Dish dish2=new Salad(simpleSaladIng);
         assert(dish.countCalories()==dish2.countCalories());
     }

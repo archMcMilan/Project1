@@ -6,21 +6,21 @@ package model;
 public class Vegetable extends Ingredient {
     private int calories;
 
-    public Vegetable(String name, int id, double weight, int calories) {
-        super(name, id, weight);
+    public Vegetable(IngredientList ing, double weight, int calories) {
+        super(ing, weight);
         this.calories = calories;
     }
 
     public int getCalories() {
         return calories;
     }
-
+/*
     /**
      * Method to compare two vegetables by calories
      * @param o
      * @return -1 if this value less than compared to, 0 if they are equals, 1 if this is more than compared to
      */
-    private int compareTo(Vegetable o) {
+    /*private int compareTo(Vegetable o) {
         if(this.getCalories()< o.getCalories()){
             return -1;
         }else if(this.getCalories()==o.getCalories()){
@@ -34,18 +34,18 @@ public class Vegetable extends Ingredient {
     @Override
     public int compareTo(Ingredient o) {
         return (this.compareTo((Vegetable) o));
-    }
+    }*/
 
     @Override
     public Vegetable clone(){
-        Vegetable temp=new Vegetable(this.getName(),this.getId(),this.getWeight(),this.getCalories());
+        Vegetable temp=new Vegetable(this.getIng(),this.getWeight(),this.getCalories());
         return temp;
     }
 
     @Override
     public String toString() {
-        return "Vegetable{" +
-                "calories=" + calories +
+        return "Vegetable{" + getIng().getId()+
+                " calories=" + calories +
                 '}';
     }
 }

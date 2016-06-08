@@ -13,10 +13,10 @@ import java.util.ArrayList;
 public class ControllerTest {
 
     private ArrayList<Dish> init(){
-        Vegetable cucumber=new Vegetable("Cucumber",1,30,1500);
-        Vegetable tomato=new Vegetable("Tomato",2,50,3000);
-        Vegetable onion=new Vegetable("Onion",3,20,500);
-        Spice salt=new Spice("Salt",1,5,0);
+        Vegetable cucumber=new Vegetable(IngredientList.CUCUMBER,100,2000);
+        Vegetable tomato=new Vegetable(IngredientList.TOMATO,50,3000);
+        Vegetable onion=new Vegetable(IngredientList.ONION,20,500);
+        Spice salt=new Spice(IngredientList.SALT,5,0);
         ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
         simpleSaladIng.add(tomato);
         simpleSaladIng.add(cucumber);
@@ -24,10 +24,10 @@ public class ControllerTest {
         simpleSaladIng.add(salt);
         Dish dish1= new Salad(simpleSaladIng);
 
-        Vegetable potato=new Vegetable("Potato",4,30,1000);
-        Vegetable carrot=new Vegetable("Carrot",5,50,2000);
-        Vegetable cabbage=new Vegetable("Cabbage",6,20,300);
-        Spice kari=new Spice("kari",1,5,0);
+        Vegetable potato=new Vegetable(IngredientList.POTATO,30,1000);
+        Vegetable carrot=new Vegetable(IngredientList.CARROT,50,2000);
+        Vegetable cabbage=new Vegetable(IngredientList.CABBAGE,20,300);
+        Spice kari=new Spice(IngredientList.KARI,5,0);
         ArrayList<Ingredient> secondSaladIng=new ArrayList<>();
         secondSaladIng.add( carrot);
         secondSaladIng.add(potato);
@@ -42,10 +42,10 @@ public class ControllerTest {
     }
     @Test
     public void outputAvailableDishesTest() {
-        Vegetable cucumber=new Vegetable("Cucumber",1,30,1500);
-        Vegetable tomato=new Vegetable("Tomato",2,50,3000);
-        Vegetable onion=new Vegetable("Onion",3,20,500);
-        Spice salt=new Spice("Salt",1,5,0);
+        Vegetable cucumber=new Vegetable(IngredientList.CUCUMBER,100,2000);
+        Vegetable tomato=new Vegetable(IngredientList.TOMATO,50,3000);
+        Vegetable onion=new Vegetable(IngredientList.ONION,20,500);
+        Spice salt=new Spice(IngredientList.SALT,5,0);
         ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
         simpleSaladIng.add(tomato);
         simpleSaladIng.add(cucumber);

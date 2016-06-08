@@ -23,22 +23,7 @@ public class Salad extends Dish {
                 vegetables.add((Vegetable) i);
             }
         }
-        int left = 0;
-        int right = vegetables.size() - 1;
-        do {
-            for (int i = left; i < right; i++) {
-                if (vegetables.get(i).compareTo(vegetables.get(i + 1)) > 0) {
-                    Collections.swap(vegetables,i,i+1);
-                }
-            }
-            right--;
-            for (int i = right; i > left; i--) {
-                if (vegetables.get(i).compareTo(vegetables.get(i-1)) < 0) {
-                    Collections.swap(vegetables,i-1,i);
-                }
-            }
-            left++;
-        } while (left <= right);
+        Collections.sort(vegetables);
         return vegetables;
     }
 

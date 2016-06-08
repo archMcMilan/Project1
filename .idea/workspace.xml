@@ -2,33 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc7f5601-7a7f-49d3-9111-5c254f2c8f5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/Initialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/DishTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/MenuTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/SaladTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/model/Operations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Operations.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/Main.class" afterPath="$PROJECT_DIR$/out/production/Project1/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/Project1/controller/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/IngredientList.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/controller/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/controller/Initialization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/model/Spice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/test/ControllerTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Dish.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Dish.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Ingredient.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Ingredient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Menu.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Salad.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Salad.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Spice.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Spice.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/model/Vegetable.class" afterPath="$PROJECT_DIR$/out/production/Project1/model/Vegetable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/view/View.class" afterPath="$PROJECT_DIR$/out/production/Project1/view/View.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/test/DishTest.class" afterPath="$PROJECT_DIR$/out/production/Project1/test/DishTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/test/MenuTest.class" afterPath="$PROJECT_DIR$/out/production/Project1/test/MenuTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/test/SaladTest.class" afterPath="$PROJECT_DIR$/out/production/Project1/test/SaladTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project1.iml" afterPath="$PROJECT_DIR$/Project1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Controller.java" afterPath="$PROJECT_DIR$/src/controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Initialization.java" afterPath="$PROJECT_DIR$/src/controller/Initialization.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Dish.java" afterPath="$PROJECT_DIR$/src/model/Dish.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Ingredient.java" afterPath="$PROJECT_DIR$/src/model/Ingredient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Menu.java" afterPath="$PROJECT_DIR$/src/model/Menu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Salad.java" afterPath="$PROJECT_DIR$/src/model/Salad.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Spice.java" afterPath="$PROJECT_DIR$/src/model/Spice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Vegetable.java" afterPath="$PROJECT_DIR$/src/model/Vegetable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/View.java" afterPath="$PROJECT_DIR$/src/view/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ControllerTest.java" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DishTest.java" afterPath="$PROJECT_DIR$/src/test/DishTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/MenuTest.java" afterPath="$PROJECT_DIR$/src/test/MenuTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/SaladTest.java" afterPath="$PROJECT_DIR$/src/test/SaladTest.java" />
     </list>
     <ignored path="Project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,12 +55,10 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-622">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="586">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2448#2449#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +67,8 @@
       <file leaf-file-name="ControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,21 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Vegetable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Vegetable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="79" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="79" />
+            <state relative-caret-position="365">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -102,28 +89,30 @@
       <file leaf-file-name="Ingredient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="-45">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Menu.java">
+      <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Spice.java">
+      <file leaf-file-name="SaladTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/SaladTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="181">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,139 +121,43 @@
       <file leaf-file-name="Salad.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Salad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dish.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DishTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/DishTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Spice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dish.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Dish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="166">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/model.Dish" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/model.Dish">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>model.Dish</OriginalElement>
-              <nodes>
-                <node x="58.90178571428572" y="811.0">controller.Controller</node>
-                <node x="470.0357142857142" y="591.0">model.Menu</node>
-                <node x="765.6517857142857" y="11.0">java.lang.Cloneable</node>
-                <node x="0.0" y="569.0">model.Vegetable</node>
-                <node x="761.0357142857142" y="602.5">model.Salad</node>
-                <node x="176.57440476190476" y="101.0">model.Ingredient</node>
-                <node x="244.03571428571425" y="569.0">model.Spice</node>
-                <node x="163.82440476190476" y="0.0">java.lang.Comparable</node>
-                <node x="101.90178571428572" y="1067.0">Main</node>
-                <node x="368.8630952380952" y="877.5">controller.Initialization</node>
-                <node x="560.9017857142857" y="357.0">model.Dish</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="controller.Controller" target="model.Salad">
-                  <point x="84.33333333333331" y="-103.0" />
-                  <point x="269.73511904761904" y="781.0" />
-                  <point x="842.7857142857142" y="781.0" />
-                  <point x="-81.75" y="47.5" />
-                </edge>
-                <edge source="controller.Initialization" target="model.Vegetable">
-                  <point x="-90.33333333333331" y="-36.5" />
-                  <point x="414.02976190476187" y="761.0" />
-                  <point x="166.5" y="761.0" />
-                  <point x="55.5" y="81.0" />
-                </edge>
-                <edge source="controller.Initialization" target="model.Salad">
-                  <point x="90.33333333333337" y="-36.5" />
-                  <point x="594.6964285714286" y="791.0" />
-                  <point x="1006.2857142857142" y="791.0" />
-                  <point x="81.74999999999989" y="47.5" />
-                </edge>
-                <edge source="controller.Controller" target="model.Vegetable">
-                  <point x="-84.33333333333331" y="-103.0" />
-                  <point x="101.06845238095241" y="791.0" />
-                  <point x="55.5" y="791.0" />
-                  <point x="-55.5" y="81.0" />
-                </edge>
-                <edge source="model.Ingredient" target="java.lang.Cloneable">
-                  <point x="66.75" y="-103.0" />
-                  <point x="376.82440476190476" y="76.0" />
-                  <point x="789.1517857142857" y="76.0" />
-                  <point x="-23.5" y="14.5" />
-                </edge>
-                <edge source="model.Dish" target="model.Ingredient">
-                  <point x="-91.75" y="-81.0" />
-                  <point x="652.6517857142857" y="332.0" />
-                  <point x="399.07440476190476" y="332.0" />
-                  <point x="89.0" y="103.0" />
-                </edge>
-                <edge source="model.Ingredient" target="java.lang.Comparable">
-                  <point x="-66.75" y="-103.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="model.Spice" target="model.Ingredient">
-                  <point x="0.0" y="-81.0" />
-                  <point x="347.0357142857142" y="332.0" />
-                  <point x="310.07440476190476" y="332.0" />
-                  <point x="0.0" y="103.0" />
-                </edge>
-                <edge source="model.Salad" target="model.Dish">
-                  <point x="-1.1368683772161603E-13" y="-47.5" />
-                  <point x="924.5357142857142" y="544.0" />
-                  <point x="836.1517857142857" y="544.0" />
-                  <point x="91.75" y="81.0" />
-                </edge>
-                <edge source="model.Vegetable" target="model.Ingredient">
-                  <point x="0.0" y="-81.0" />
-                  <point x="111.0" y="332.0" />
-                  <point x="221.07440476190476" y="332.0" />
-                  <point x="-89.0" y="103.0" />
-                </edge>
-                <edge source="controller.Controller" target="model.Spice">
-                  <point x="0.0" y="-103.0" />
-                  <point x="185.40178571428572" y="771.0" />
-                  <point x="295.5357142857142" y="771.0" />
-                  <point x="-51.5" y="81.0" />
-                </edge>
-                <edge source="model.Menu" target="model.Dish">
-                  <point x="0.0" y="-59.0" />
-                  <point x="605.5357142857142" y="544.0" />
-                  <point x="652.6517857142857" y="544.0" />
-                  <point x="-91.75" y="81.0" />
-                </edge>
-                <edge source="Main" target="controller.Controller">
-                  <point x="0.0" y="-25.5" />
-                  <point x="0.0" y="103.0" />
-                </edge>
-                <edge source="controller.Initialization" target="model.Spice">
-                  <point x="0.0" y="-36.5" />
-                  <point x="504.3630952380952" y="751.0" />
-                  <point x="398.5357142857142" y="751.0" />
-                  <point x="51.5" y="81.0" />
-                </edge>
-                <edge source="model.Dish" target="java.lang.Cloneable">
-                  <point x="91.75" y="-81.0" />
-                  <point x="23.5" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.948474776782904" x="-42.96216929031368" y="226.03783070968632" />
-              <SelectedNodes>
-                <node>Main</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-                <Category>Fields</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -274,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -293,23 +186,24 @@
         <option value="$PROJECT_DIR$/src/vegetable/Salad.java" />
         <option value="$PROJECT_DIR$/src/vegetable/Vegetable.java" />
         <option value="$PROJECT_DIR$/src/model/Operations.java" />
-        <option value="$PROJECT_DIR$/src/model/Ingredient.java" />
-        <option value="$PROJECT_DIR$/src/model/Vegetable.java" />
-        <option value="$PROJECT_DIR$/src/model/Spice.java" />
         <option value="$PROJECT_DIR$/src/view/Test.java" />
         <option value="$PROJECT_DIR$/src/model/DishTest.java" />
-        <option value="$PROJECT_DIR$/src/model/Dish.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/DishTest.java" />
-        <option value="$PROJECT_DIR$/src/test/SaladTest.java" />
         <option value="$PROJECT_DIR$/src/model/MenuTest.java" />
-        <option value="$PROJECT_DIR$/src/controller/Initialization.java" />
         <option value="$PROJECT_DIR$/src/view/View.java" />
-        <option value="$PROJECT_DIR$/src/model/Salad.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/model/Menu.java" />
+        <option value="$PROJECT_DIR$/src/model/Ingredient.java" />
+        <option value="$PROJECT_DIR$/src/test/SaladTest.java" />
         <option value="$PROJECT_DIR$/src/test/MenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/Initialization.java" />
+        <option value="$PROJECT_DIR$/src/test/DishTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/model/IngredientList.java" />
+        <option value="$PROJECT_DIR$/src/model/Spice.java" />
+        <option value="$PROJECT_DIR$/src/model/Salad.java" />
+        <option value="$PROJECT_DIR$/src/model/Dish.java" />
+        <option value="$PROJECT_DIR$/src/model/Vegetable.java" />
       </list>
     </option>
   </component>
@@ -465,48 +359,7 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.outputAvailableDishesTest">
-    <configuration default="false" name="SaladTest.cloneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Project1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SaladTest" />
-      <option name="METHOD_NAME" value="cloneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Project1" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SaladTest.sortVegetableTest">
     <configuration default="false" name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -533,7 +386,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MenuTest.dropDishByIngredientIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DishTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -544,8 +397,60 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MenuTest" />
-      <option name="METHOD_NAME" value="dropDishByIngredientIdTest" />
+      <option name="MAIN_CLASS_NAME" value="test.DishTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SaladTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Project1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SaladTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DishTest.sortByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Project1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DishTest" />
+      <option name="METHOD_NAME" value="sortByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -559,7 +464,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ControllerTest.outputAvailableDishesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SaladTest.sortVegetableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -570,8 +475,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ControllerTest" />
-      <option name="METHOD_NAME" value="outputAvailableDishesTest" />
+      <option name="MAIN_CLASS_NAME" value="test.SaladTest" />
+      <option name="METHOD_NAME" value="sortVegetableTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -987,19 +892,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SaladTest.cloneTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.dropDishByIngredientIdTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ControllerTest.outputAvailableDishesTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SaladTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.sortByIdTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SaladTest.sortVegetableTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ControllerTest.outputAvailableDishesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.dropDishByIngredientIdTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SaladTest.cloneTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SaladTest.sortVegetableTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.sortByIdTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SaladTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1022,44 +927,46 @@
       <workItem from="1464800955827" duration="87000" />
       <workItem from="1464801090343" duration="792000" />
       <workItem from="1465075772224" duration="2031000" />
-      <workItem from="1465209284201" duration="18301000" />
+      <workItem from="1465209284201" duration="18682000" />
+      <workItem from="1465323741403" duration="1439000" />
+      <workItem from="1465328348876" duration="4343000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ControllerTest_outputAvailableDishesTest - 2016.06.06 at 19h 44m 30s.xml">
-      <configuration name="ControllerTest.outputAvailableDishesTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 17m 33s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ControllerTest_outputAvailableDishesTest - 2016.06.06 at 19h 50m 59s.xml">
-      <configuration name="ControllerTest.outputAvailableDishesTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 19m 26s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DishTest - 2016.06.06 at 17h 51m 07s.xml">
-      <configuration name="DishTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 20m 24s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DishTest_sortByWeightTest - 2016.06.06 at 18h 02m 24s.xml">
-      <configuration name="DishTest.sortByWeightTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 44m 07s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MenuTest_dropDishByIngredientIdTest - 2016.06.06 at 19h 35m 18s.xml">
-      <configuration name="MenuTest.dropDishByIngredientIdTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 46m 31s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SaladTest_cloneTest - 2016.06.06 at 18h 19m 35s.xml">
-      <configuration name="SaladTest.cloneTest" configurationId="JUnit" />
+    <history-entry file="DishTest_sortByIdTest - 2016.06.08 at 00h 49m 22s.xml">
+      <configuration name="DishTest.sortByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SaladTest_findVegetablesTest - 2016.06.06 at 18h 16m 06s.xml">
-      <configuration name="SaladTest.findVegetablesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaladTest_findVegetablesTestWithNothingReturned - 2016.06.06 at 18h 16m 48s.xml">
-      <configuration name="SaladTest.findVegetablesTestWithNothingReturned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaladTest_sortVegetableTest - 2016.06.06 at 18h 03m 22s.xml">
+    <history-entry file="SaladTest_sortVegetableTest - 2016.06.08 at 00h 17m 58s.xml">
       <configuration name="SaladTest.sortVegetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SaladTest_sortVegetableTest - 2016.06.06 at 18h 14m 00s.xml">
+    <history-entry file="SaladTest_sortVegetableTest - 2016.06.08 at 00h 47m 50s.xml">
+      <configuration name="SaladTest.sortVegetableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaladTest_sortVegetableTest - 2016.06.08 at 00h 49m 17s.xml">
+      <configuration name="SaladTest.sortVegetableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaladTest_sortVegetableTest - 2016.06.08 at 00h 50m 17s.xml">
       <configuration name="SaladTest.sortVegetableTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39695000" />
+    <option name="totallyTimeSpent" value="45858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1079,7 +986,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1090,6 +996,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1141,14 +1048,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Vegetable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1161,7 +1060,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,14 +1083,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Operations.java" />
     <entry file="file://$PROJECT_DIR$/src/model/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1203,8 +1098,8 @@
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="false" />
+            <element signature="e#2379#2380#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1213,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1131,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,14 +1154,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Operations.java" />
     <entry file="file://$PROJECT_DIR$/src/model/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1280,8 +1170,8 @@
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="false" />
+            <element signature="e#2379#2380#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1290,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,8 +1214,8 @@
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="false" />
+            <element signature="e#2379#2380#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1335,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,22 +1260,8 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Operations.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/Test.java" />
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1420,11 +1294,11 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="260.5" y="300.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="300.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
             <Category>Fields</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1442,7 +1316,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="56.5" y="52.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="53.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1468,33 +1342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SaladTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Initialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1506,44 +1357,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DishTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/model.Dish">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>model.Dish</OriginalElement>
           <nodes>
-            <node x="58.90178571428572" y="811.0">controller.Controller</node>
             <node x="470.0357142857142" y="591.0">model.Menu</node>
+            <node x="58.90178571428572" y="811.0">controller.Controller</node>
             <node x="765.6517857142857" y="11.0">java.lang.Cloneable</node>
             <node x="0.0" y="569.0">model.Vegetable</node>
             <node x="761.0357142857142" y="602.5">model.Salad</node>
@@ -1556,57 +1377,11 @@
           </nodes>
           <notes />
           <edges>
-            <edge source="controller.Controller" target="model.Salad">
-              <point x="84.33333333333331" y="-103.0" />
-              <point x="269.73511904761904" y="781.0" />
-              <point x="842.7857142857142" y="781.0" />
-              <point x="-81.75" y="47.5" />
-            </edge>
-            <edge source="controller.Initialization" target="model.Vegetable">
-              <point x="-90.33333333333331" y="-36.5" />
-              <point x="414.02976190476187" y="761.0" />
-              <point x="166.5" y="761.0" />
-              <point x="55.5" y="81.0" />
-            </edge>
-            <edge source="controller.Initialization" target="model.Salad">
-              <point x="90.33333333333337" y="-36.5" />
-              <point x="594.6964285714286" y="791.0" />
-              <point x="1006.2857142857142" y="791.0" />
-              <point x="81.74999999999989" y="47.5" />
-            </edge>
-            <edge source="controller.Controller" target="model.Vegetable">
-              <point x="-84.33333333333331" y="-103.0" />
-              <point x="101.06845238095241" y="791.0" />
-              <point x="55.5" y="791.0" />
-              <point x="-55.5" y="81.0" />
-            </edge>
-            <edge source="model.Ingredient" target="java.lang.Cloneable">
-              <point x="66.75" y="-103.0" />
-              <point x="376.82440476190476" y="76.0" />
-              <point x="789.1517857142857" y="76.0" />
-              <point x="-23.5" y="14.5" />
-            </edge>
-            <edge source="model.Dish" target="model.Ingredient">
-              <point x="-91.75" y="-81.0" />
-              <point x="652.6517857142857" y="332.0" />
-              <point x="399.07440476190476" y="332.0" />
-              <point x="89.0" y="103.0" />
-            </edge>
-            <edge source="model.Ingredient" target="java.lang.Comparable">
-              <point x="-66.75" y="-103.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
             <edge source="model.Spice" target="model.Ingredient">
               <point x="0.0" y="-81.0" />
               <point x="347.0357142857142" y="332.0" />
               <point x="310.07440476190476" y="332.0" />
               <point x="0.0" y="103.0" />
-            </edge>
-            <edge source="model.Salad" target="model.Dish">
-              <point x="-1.1368683772161603E-13" y="-47.5" />
-              <point x="924.5357142857142" y="544.0" />
-              <point x="836.1517857142857" y="544.0" />
-              <point x="91.75" y="81.0" />
             </edge>
             <edge source="model.Vegetable" target="model.Ingredient">
               <point x="0.0" y="-81.0" />
@@ -1614,102 +1389,155 @@
               <point x="221.07440476190476" y="332.0" />
               <point x="-89.0" y="103.0" />
             </edge>
-            <edge source="controller.Controller" target="model.Spice">
-              <point x="0.0" y="-103.0" />
-              <point x="185.40178571428572" y="771.0" />
-              <point x="295.5357142857142" y="771.0" />
-              <point x="-51.5" y="81.0" />
+            <edge source="model.Salad" target="model.Dish">
+              <point x="-1.1368683772161603E-13" y="-47.5" />
+              <point x="924.5357142857142" y="544.0" />
+              <point x="836.1517857142857" y="544.0" />
+              <point x="91.75" y="81.0" />
             </edge>
-            <edge source="model.Menu" target="model.Dish">
-              <point x="0.0" y="-59.0" />
-              <point x="605.5357142857142" y="544.0" />
-              <point x="652.6517857142857" y="544.0" />
-              <point x="-91.75" y="81.0" />
+            <edge source="model.Ingredient" target="java.lang.Cloneable">
+              <point x="66.75" y="-103.0" />
+              <point x="376.82440476190476" y="76.0" />
+              <point x="789.1517857142857" y="76.0" />
+              <point x="-23.5" y="14.5" />
             </edge>
-            <edge source="Main" target="controller.Controller">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="103.0" />
-            </edge>
-            <edge source="controller.Initialization" target="model.Spice">
-              <point x="0.0" y="-36.5" />
-              <point x="504.3630952380952" y="751.0" />
-              <point x="398.5357142857142" y="751.0" />
-              <point x="51.5" y="81.0" />
+            <edge source="model.Ingredient" target="java.lang.Comparable">
+              <point x="-66.75" y="-103.0" />
+              <point x="0.0" y="25.5" />
             </edge>
             <edge source="model.Dish" target="java.lang.Cloneable">
               <point x="91.75" y="-81.0" />
               <point x="23.5" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.948474776782904" x="-42.96216929031368" y="226.03783070968632" />
+          <settings layout="Hierarchic Group" zoom="0.948474776782904" x="-43.0" y="226.0" />
           <SelectedNodes>
             <node>Main</node>
           </SelectedNodes>
           <Categories>
-            <Category>Methods</Category>
             <Category>Fields</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Salad.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Initialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/IngredientList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Spice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Vegetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="79" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="79" />
+        <state relative-caret-position="380">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="-45">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="586">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DishTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="166">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Salad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Vegetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SaladTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

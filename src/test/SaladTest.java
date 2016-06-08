@@ -12,10 +12,10 @@ import java.util.ArrayList;
 public class SaladTest {
 
     private Salad init(){
-        Vegetable carrot=new Vegetable("Carrot",1,30,1000);
-        Vegetable potato=new Vegetable("Potato",2,50,2000);
-        Vegetable onion=new Vegetable("Onion",3,20,300);
-        Spice salt=new Spice("Salt",1,5,0);
+        Vegetable carrot=new Vegetable(IngredientList.CARROT,30,1000);
+        Vegetable potato=new Vegetable(IngredientList.POTATO,50,2000);
+        Vegetable onion=new Vegetable(IngredientList.ONION,20,300);
+        Spice salt=new Spice(IngredientList.SALT,5,0);
         ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
         simpleSaladIng.add(potato);
         simpleSaladIng.add(carrot);

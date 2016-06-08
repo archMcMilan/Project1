@@ -1,9 +1,6 @@
 package controller;
 
-import model.Ingredient;
-import model.Salad;
-import model.Spice;
-import model.Vegetable;
+import model.*;
 
 import java.util.ArrayList;
 
@@ -20,10 +17,10 @@ public class Initialization {
      * @return Salad
      */
     public static Salad initializationSimpleSalad() {
-        Vegetable cucumber=new Vegetable("Cucumber",1,30,1000);
-        Vegetable tomato=new Vegetable("Tomato",2,50,2000);
-        Vegetable onion=new Vegetable("Onion",4,20,300);
-        Spice salt=new Spice("Salt",1,5,0);
+        Vegetable cucumber=new Vegetable(IngredientList.CUCUMBER,100,2000);
+        Vegetable tomato=new Vegetable(IngredientList.TOMATO,50,3000);
+        Vegetable onion=new Vegetable(IngredientList.ONION,20,500);
+        Spice salt=new Spice(IngredientList.SALT,5,0);
         ArrayList<Ingredient> simpleSaladIng=new ArrayList<>();
         simpleSaladIng.add(tomato);
         simpleSaladIng.add(cucumber);
@@ -37,14 +34,16 @@ public class Initialization {
      * @return Salad
      */
     public static Salad initializationCeasarSalad() {
-        Vegetable carrot=new Vegetable("Carrot",4,30,5000);
-        Vegetable potato=new Vegetable("Potato",5,50,1000);
-        Vegetable cabbage=new Vegetable("Сabbage",6,20,2000);
+        Vegetable potato=new Vegetable(IngredientList.POTATO,30,1000);
+        Vegetable carrot=new Vegetable(IngredientList.CARROT,50,2000);
+        Vegetable cabbage=new Vegetable(IngredientList.CABBAGE,20,300);
+        Spice kari=new Spice(IngredientList.KARI,5,0);
 
         ArrayList<Ingredient> saladIng=new ArrayList<>();
         saladIng.add(potato);
         saladIng.add(carrot);
         saladIng.add(cabbage);
+        saladIng.add(kari);
         return new Salad(saladIng);
     }
 

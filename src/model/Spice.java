@@ -6,8 +6,8 @@ package model;
 public class Spice extends Ingredient {
     private int spicy;
 
-    public Spice(String name, int id, double weight, int spicy) {
-        super(name, id, weight);
+    public Spice(IngredientList ing, double weight, int spicy) {
+        super(ing, weight);
         this.spicy = spicy;
     }
 
@@ -15,12 +15,12 @@ public class Spice extends Ingredient {
         return spicy;
     }
 
-    /**
+    /*/**
      * Method to compare two spices by spicy
      * @param o
      * @return -1 if this value less than compared to, 0 if they are equals, 1 if this is more than compared to
      */
-    public int compareTo(Spice o) {
+    /*public int compareTo(Spice o) {
         if(this.getSpicy()< o.getSpicy()){
             return -1;
         }else if(this.getSpicy()==o.getSpicy()){
@@ -34,19 +34,19 @@ public class Spice extends Ingredient {
     @Override
     public int compareTo(Ingredient o) {
         return (this.compareTo((Spice) o));
-    }
+    }*/
 
 
     @Override
     public Spice clone() {
-        Spice temp=new Spice(this.getName(),this.getId(),this.getWeight(),this.getSpicy());
+        Spice temp=new Spice(this.getIng(),this.getWeight(),this.getSpicy());
         return temp;
     }
 
     @Override
     public String toString() {
-        return "Spice{" +
-                "spicy=" + spicy +
+        return "Spice{" + getIng().getId()+
+                " spicy=" + spicy +
                 '}';
     }
 }

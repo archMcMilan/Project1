@@ -28,13 +28,7 @@ public abstract class Dish implements Cloneable{
      */
     public ArrayList<Ingredient> sortById(){
         ArrayList<Ingredient> ingredientsList=getIngredients();
-        for (int i=0;i<ingredientsList.size();i++){
-            for(int j=i;j<ingredientsList.size();j++){
-                if(ingredientsList.get(i).getId()>ingredientsList.get(j).getId()){
-                    Collections.swap(ingredientsList,i,j);
-                }
-            }
-        }
+        Collections.sort(ingredientsList);
         return ingredientsList;
     }
 
